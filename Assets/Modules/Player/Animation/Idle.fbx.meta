@@ -1,0 +1,517 @@
+fileFormatVersion: 2
+guid: e7d06cdbd0d619644b68160b73ebdb59
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Idle
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Solaar_Sam1:rip_J
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_thigh_J
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_thigh_J
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_shin_J
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_shin_J
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_foot_J
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_foot_J
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:spine_J
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:neck_J
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_solder__J
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_upperarm_J
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_upperarm_J
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_forearm_J
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_forearm_J
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:L_wrist_J
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:R_wrist_J
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Solaar_Sam1:head_J
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Solar_Sam_ctr_Set
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Root
+      parentName: Solaar_Sam1:Solar_Sam_ctr_Set
+      position: {x: 0.000016941018, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Solar_Sam_export
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:head
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:chest
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:hips
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:hand_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:hand_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:foot_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:thigh_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Shin_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:shin_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:thigh_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:foot_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:forearm_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Upper_arm_L
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:forearm_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Upper_arm_R
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Hoverboard1:hoverboard_mesh
+      parentName: Solaar_Sam1:Solar_Sam_export
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:Solar_Sam_Skeleton
+      parentName: Idle(Clone)
+      position: {x: 0.0000040321343, y: -0.000025928055, z: 0}
+      rotation: {x: -0, y: -0, z: -0.7024664, w: 0.7117169}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1}
+    - name: Solaar_Sam1:L_foot_IK_J
+      parentName: Solaar_Sam1:Solar_Sam_Skeleton
+      position: {x: -0.003228308, y: -0.0028018816, z: 0.0075450055}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:R_foot_IK_J
+      parentName: Solaar_Sam1:Solar_Sam_Skeleton
+      position: {x: -0.0031125348, y: 0.0037378345, z: -0.003582359}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:rip_J
+      parentName: Solaar_Sam1:Solar_Sam_Skeleton
+      position: {x: -0.019668123, y: 0.000059904483, z: 0.0016871438}
+      rotation: {x: 0.0000000020713684, y: 0.0000000020444462, z: 0.7024664, w: 0.7117169}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: Solaar_Sam1:R_hand_IK_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: 0.010572328, y: 0.002428103, z: 0.0028714568}
+      rotation: {x: 0, y: 0.2323241, z: -0, w: 0.9726385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:L_hand_IK_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: -0.011733262, y: 0.0044080657, z: 0.0020691722}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:R_thigh_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: 0.00297849, y: -0.000991905, z: -0.0007093115}
+      rotation: {x: 0.037397176, y: -0.35060507, z: 0.0011843746, w: 0.9357757}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000006}
+    - name: Solaar_Sam1:R_shin_J
+      parentName: Solaar_Sam1:R_thigh_J
+      position: {x: 0.00137587, y: -0.0078363, z: 0.000453959}
+      rotation: {x: 0.024149809, y: 0.0023058949, z: -0.023498608, w: 0.99942946}
+      scale: {x: 0.9999998, y: 1.0000004, z: 0.99999994}
+    - name: Solaar_Sam1:R_foot_J
+      parentName: Solaar_Sam1:R_shin_J
+      position: {x: 0.00070394, y: -0.00868319, z: -0.00034046939}
+      rotation: {x: -0.05157707, y: 0.3465764, z: -0.0104903905, w: 0.93654394}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000005}
+    - name: Solaar_Sam1:R_toe_R
+      parentName: Solaar_Sam1:R_foot_J
+      position: {x: -0.000096, y: -0.001068651, z: 0.0024400374}
+      rotation: {x: -0.0000000037252899, y: -0.000000029802319, z: -0.0000000037252899,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: Solaar_Sam1:L_thigh_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: -0.0025917622, y: -0.0009919091, z: -0.00070931186}
+      rotation: {x: 0.046941735, y: 0.37284806, z: -0.0025614505, w: 0.9267007}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: Solaar_Sam1:L_shin_J
+      parentName: Solaar_Sam1:L_thigh_J
+      position: {x: -0.0013758738, y: -0.007836281, z: 0.00045395957}
+      rotation: {x: -0.000000007450581, y: 0.00000008940697, z: -0.000000039115548,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.99999994}
+    - name: Solaar_Sam1:L_foot_J
+      parentName: Solaar_Sam1:L_shin_J
+      position: {x: -0.00070393545, y: -0.0086832065, z: -0.0003404697}
+      rotation: {x: -0.046941716, y: -0.37284818, z: 0.0025614803, w: 0.92670065}
+      scale: {x: 0.9999992, y: 1, z: 1.0000011}
+    - name: Solaar_Sam1:L_toe_L
+      parentName: Solaar_Sam1:L_foot_J
+      position: {x: 0.0000959912, y: -0.0010686497, z: 0.0024400328}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: Solaar_Sam1:spine_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: 0.00013811296, y: 0.0034549364, z: -0.0005107045}
+      rotation: {x: 0.000000001455192, y: -1.110223e-16, z: -6.3522024e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:spine01_J
+      parentName: Solaar_Sam1:spine_J
+      position: {x: 0.000027794895, y: 0.0044193882, z: -4.2148035e-37}
+      rotation: {x: -0, y: -0, z: 1.6155876e-25, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Solaar_Sam1:L_solder__J
+      parentName: Solaar_Sam1:spine01_J
+      position: {x: -0.0026827457, y: 0.003041757, z: 0.001793694}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Solaar_Sam1:L_upperarm_J
+      parentName: Solaar_Sam1:L_solder__J
+      position: {x: -0.0038456826, y: -0.0005834829, z: -0.0018417081}
+      rotation: {x: -0.52037585, y: -0.3701029, z: -0.43390918, w: 0.6355751}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: Solaar_Sam1:L_forearm_J
+      parentName: Solaar_Sam1:L_upperarm_J
+      position: {x: -0.0025195852, y: -0.0067630974, z: 0}
+      rotation: {x: -0.008017211, y: -0.000119343385, z: -0.1390053, w: 0.9902592}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000001}
+    - name: Solaar_Sam1:L_wrist_J
+      parentName: Solaar_Sam1:L_forearm_J
+      position: {x: -0.00007956585, y: -0.0071609262, z: 0}
+      rotation: {x: 0.01703446, y: 0.06760564, z: -0.08487808, w: 0.9939493}
+      scale: {x: 1.000001, y: 0.9999996, z: 1.0000007}
+    - name: Solaar_Sam1:neck_J
+      parentName: Solaar_Sam1:spine01_J
+      position: {x: -0.000027794895, y: 0.0054200045, z: -7.578329e-21}
+      rotation: {x: -0.0000000045474735, y: 0.0000000014551915, z: 2.3540106e-18,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: Solaar_Sam1:head_J
+      parentName: Solaar_Sam1:neck_J
+      position: {x: -0.00002989392, y: 0.01947525, z: -1.0090907e-20}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Solaar_Sam1:R_solder__J
+      parentName: Solaar_Sam1:spine01_J
+      position: {x: 0.0026827478, y: 0.0030417698, z: 0.00179369}
+      rotation: {x: -0.0029241713, y: -0.0387665, z: 0.08743632, w: 0.9954113}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Solaar_Sam1:R_upperarm_J
+      parentName: Solaar_Sam1:R_solder__J
+      position: {x: 0.004302259, y: -0.0012429345, z: -0.0018417039}
+      rotation: {x: -0.45285672, y: 0.5185455, z: 0.4426271, w: 0.5745543}
+      scale: {x: 0.99999976, y: 1.0000006, z: 1.0000005}
+    - name: Solaar_Sam1:R_forearm_J
+      parentName: Solaar_Sam1:R_upperarm_J
+      position: {x: 0.000989699, y: -0.007020471, z: 1.4887387e-10}
+      rotation: {x: -0.0028409653, y: 0.000058293328, z: 0.06036061, w: 0.99817264}
+      scale: {x: 1.0000013, y: 0.99999934, z: 1.000001}
+    - name: Solaar_Sam1:R_wrist_J
+      parentName: Solaar_Sam1:R_forearm_J
+      position: {x: -0.00043591156, y: -0.007142452, z: 1.1674182e-10}
+      rotation: {x: 0.08504199, y: 0.48968065, z: -0.039108574, w: 0.8668629}
+      scale: {x: 1.0000007, y: 1, z: 1.0000008}
+    - name: Solaar_Sam1:hoverboard_J
+      parentName: Solaar_Sam1:rip_J
+      position: {x: 0.00604618, y: -0.01475167, z: -0.003875452}
+      rotation: {x: -0.0000000010113351, y: 0.7275921, z: 0.000000028729685, w: 0.6860101}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999946}
+    - name: Solaar_Sam1:joint2
+      parentName: Solaar_Sam1:hoverboard_J
+      position: {x: -0.016575854, y: 0, z: -8.326672e-18}
+      rotation: {x: -9.852178e-10, y: -0.7275921, z: -0.000000030847257, w: 0.6860101}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
