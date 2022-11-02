@@ -105,7 +105,8 @@ namespace GP1.Gameplay
 
         private void PlayHitEffects()
         {
-            
+            _hitClip.Play();
+            _animator.SetTrigger("Hit");
         }
 
         private void PlayJumpEffects()

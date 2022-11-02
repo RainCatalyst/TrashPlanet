@@ -14,9 +14,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.032192945
   m_TransitionOffset: 0
-  m_ExitTime: 0.89285713
+  m_ExitTime: 0.8928571
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -91,7 +91,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: d0ac47cd6f14f3144b4764e341ac0678,
+  m_Motion: {fileID: 1827226128182048838, guid: b16c958b6ff808545aa4b8bfd8dd9903,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -140,13 +140,13 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: Hit
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -261,7 +261,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 1827226128182048838, guid: e7d06cdbd0d619644b68160b73ebdb59,
+  m_Motion: {fileID: 1827226128182048838, guid: 7c9fa4b92df0d9140a392e45c8d72221,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 

@@ -19,8 +19,7 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 1
     motionNodeName: 
-    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
-      human bone 'Head' not found\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -68,7 +67,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 32
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -112,383 +111,247 @@ ModelImporter:
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
-    human:
-    - boneName: Solaar_Sam1:rip_J
-      humanName: Hips
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_thigh_J
-      humanName: LeftUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_thigh_J
-      humanName: RightUpperLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_shin_J
-      humanName: LeftLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_shin_J
-      humanName: RightLowerLeg
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_foot_J
-      humanName: LeftFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_foot_J
-      humanName: RightFoot
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:spine_J
-      humanName: Spine
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:neck_J
-      humanName: Neck
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_solder__J
-      humanName: RightShoulder
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_upperarm_J
-      humanName: LeftUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_upperarm_J
-      humanName: RightUpperArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_forearm_J
-      humanName: LeftLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_forearm_J
-      humanName: RightLowerArm
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:L_wrist_J
-      humanName: LeftHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:R_wrist_J
-      humanName: RightHand
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
-    - boneName: Solaar_Sam1:head_J
-      humanName: Head
-      limit:
-        min: {x: 0, y: 0, z: 0}
-        max: {x: 0, y: 0, z: 0}
-        value: {x: 0, y: 0, z: 0}
-        length: 0
-        modified: 0
+    human: []
     skeleton:
-    - name: car_hit_reation(Clone)
+    - name: Solar_Sam(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Solar_Sam_ctr_Set
-      parentName: car_hit_reation(Clone)
+    - name: Solar_Sam_ctr_Set
+      parentName: Solar_Sam(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Root
-      parentName: Solaar_Sam1:Solar_Sam_ctr_Set
-      position: {x: 0.000016941018, y: 0, z: 0}
+    - name: Root
+      parentName: Solar_Sam_ctr_Set
+      position: {x: 0.00054211257, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Solar_Sam_export
-      parentName: car_hit_reation(Clone)
+    - name: Solar_Sam_export
+      parentName: Solar_Sam(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:head
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: head
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:chest
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: chest
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:hips
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: hips
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:hand_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: hand_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:hand_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: hand_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:foot_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: foot_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:thigh_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: thigh_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Shin_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: Shin_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:shin_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: shin_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:thigh_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: thigh_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:foot_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: foot_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:forearm_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: forearm_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Upper_arm_L
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: Upper_arm_L
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:forearm_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: forearm_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Upper_arm_R
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: Upper_arm_R
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Hoverboard1:hoverboard_mesh
-      parentName: Solaar_Sam1:Solar_Sam_export
+    - name: Hoverboard1:hoverboard_mesh
+      parentName: Solar_Sam_export
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:Solar_Sam_Skeleton
-      parentName: car_hit_reation(Clone)
-      position: {x: 0.0000040321343, y: -0.000025928055, z: 0}
-      rotation: {x: -0, y: -0, z: -0.7024664, w: 0.7117169}
-      scale: {x: 1.0000008, y: 1.0000008, z: 1}
-    - name: Solaar_Sam1:L_foot_IK_J
-      parentName: Solaar_Sam1:Solar_Sam_Skeleton
-      position: {x: -0.0033169421, y: -0.0038011898, z: 0.0075521497}
+    - name: Solar_Sam_Skeleton
+      parentName: Solar_Sam(Clone)
+      position: {x: 0.0001290283, y: -0.00082969776, z: 0}
+      rotation: {x: 0, y: -0, z: -0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_foot_IK_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.05117279, y: -0.15478124, z: -0.0027237576}
       rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:R_foot_IK_J
-      parentName: Solaar_Sam1:Solar_Sam_Skeleton
-      position: {x: -0.0025223806, y: 0.0026550442, z: -0.0035961797}
+    - name: R_foot_IK_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.048161034, y: 0.15179089, z: -0.015272116}
       rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:rip_J
-      parentName: Solaar_Sam1:Solar_Sam_Skeleton
-      position: {x: -0.019668117, y: 0.000059904483, z: 0.0005964303}
-      rotation: {x: 0.000000018426942, y: -0.000000014526506, z: 0.7024664, w: 0.7117169}
-      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
-    - name: Solaar_Sam1:R_hand_IK_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: 0.009907678, y: 0.0041931868, z: 0.0009509318}
+    - name: rip_J
+      parentName: Solar_Sam_Skeleton
+      position: {x: -0.60953385, y: 0.0020269195, z: 0.016342545}
+      rotation: {x: 0, y: 0, z: 0.7024664, w: 0.71171695}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_hand_IK_J
+      parentName: rip_J
+      position: {x: 0.71120733, y: 0.36886692, z: -0.016755477}
       rotation: {x: 0, y: 0.2323241, z: -0, w: 0.9726385}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:L_hand_IK_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: -0.009002547, y: 0.0048050154, z: 0.002969441}
+    - name: L_hand_IK_J
+      parentName: rip_J
+      position: {x: -0.66229993, y: 0.31586194, z: 0.00045911668}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:R_thigh_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: 0.00297849, y: -0.000991905, z: -0.0007093115}
-      rotation: {x: 0.03739718, y: -0.35060507, z: 0.0011843782, w: 0.9357757}
-      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000006}
-    - name: Solaar_Sam1:R_shin_J
-      parentName: Solaar_Sam1:R_thigh_J
-      position: {x: 0.00137587, y: -0.0078363, z: 0.000453959}
-      rotation: {x: 0.024149839, y: 0.002306014, z: -0.02349869, w: 0.99942946}
-      scale: {x: 1, y: 1.0000002, z: 1}
-    - name: Solaar_Sam1:R_foot_J
-      parentName: Solaar_Sam1:R_shin_J
-      position: {x: 0.00070394, y: -0.00868319, z: -0.00034046939}
-      rotation: {x: -0.051577125, y: 0.34657627, z: -0.01049033, w: 0.936544}
-      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000005}
-    - name: Solaar_Sam1:R_toe_R
-      parentName: Solaar_Sam1:R_foot_J
-      position: {x: -0.000096, y: -0.001068651, z: 0.0024400374}
-      rotation: {x: -0, y: -0.000000029802319, z: -0.0000000018626449, w: 1}
-      scale: {x: 1, y: 1.0000002, z: 0.99999994}
-    - name: Solaar_Sam1:L_thigh_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: -0.0025917622, y: -0.0009919091, z: -0.00070931186}
-      rotation: {x: 0.0469417, y: 0.37284815, z: -0.002561545, w: 0.9267007}
-      scale: {x: 1.0000004, y: 1, z: 1.0000002}
-    - name: Solaar_Sam1:L_shin_J
-      parentName: Solaar_Sam1:L_thigh_J
-      position: {x: -0.0013758738, y: -0.007836281, z: 0.00045395957}
-      rotation: {x: -0.000000037252903, y: -0, z: 0.000000048428774, w: 1}
-      scale: {x: 1, y: 1.0000001, z: 0.99999994}
-    - name: Solaar_Sam1:L_foot_J
-      parentName: Solaar_Sam1:L_shin_J
-      position: {x: -0.00070393545, y: -0.0086832065, z: -0.0003404697}
-      rotation: {x: -0.046941694, y: -0.37284818, z: 0.0025614854, w: 0.9267007}
-      scale: {x: 0.99999934, y: 1.0000002, z: 1.000001}
-    - name: Solaar_Sam1:L_toe_L
-      parentName: Solaar_Sam1:L_foot_J
-      position: {x: 0.0000959912, y: -0.0010686497, z: 0.0024400328}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 1, y: 0.99999994, z: 1}
-    - name: Solaar_Sam1:spine_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: 0.00013811296, y: 0.0034549364, z: -0.0005107045}
-      rotation: {x: -0.0000000029103822, y: 2.6645353e-15, z: 3.0535194e-16, w: 1}
-      scale: {x: 1, y: 1.0000001, z: 1.0000001}
-    - name: Solaar_Sam1:spine01_J
-      parentName: Solaar_Sam1:spine_J
-      position: {x: 0.000027794895, y: 0.0044193882, z: -4.2148035e-37}
-      rotation: {x: -0, y: -0, z: 7.754816e-24, w: 1}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
-    - name: Solaar_Sam1:L_solder__J
-      parentName: Solaar_Sam1:spine01_J
-      position: {x: -0.0026827457, y: 0.003041757, z: 0.001793694}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
-    - name: Solaar_Sam1:L_upperarm_J
-      parentName: Solaar_Sam1:L_solder__J
-      position: {x: -0.0038456826, y: -0.0005834829, z: -0.0018417081}
-      rotation: {x: -0.5203758, y: -0.37010294, z: -0.43390912, w: 0.6355752}
-      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
-    - name: Solaar_Sam1:L_forearm_J
-      parentName: Solaar_Sam1:L_upperarm_J
-      position: {x: -0.0025195852, y: -0.0067630974, z: 0}
-      rotation: {x: -0.008017628, y: -0.00011928378, z: -0.13900538, w: 0.9902592}
-      scale: {x: 0.9999998, y: 1.0000005, z: 1}
-    - name: Solaar_Sam1:L_wrist_J
-      parentName: Solaar_Sam1:L_forearm_J
-      position: {x: -0.00007956585, y: -0.0071609262, z: 0}
-      rotation: {x: 0.017034478, y: 0.06760555, z: -0.08487802, w: 0.99394923}
-      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000004}
-    - name: Solaar_Sam1:neck_J
-      parentName: Solaar_Sam1:spine01_J
-      position: {x: -0.000027794895, y: 0.0054200045, z: -7.578329e-21}
-      rotation: {x: 0.000000002910383, y: 0.000000020372681, z: -2.4556353e-16, w: 1}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
-    - name: Solaar_Sam1:head_J
-      parentName: Solaar_Sam1:neck_J
-      position: {x: -0.00002989392, y: 0.01947525, z: -1.0090907e-20}
-      rotation: {x: -0, y: -0, z: -1.1102233e-16, w: 1}
+    - name: R_thigh_J
+      parentName: rip_J
+      position: {x: 0.09531168, y: -0.03174096, z: -0.022697968}
+      rotation: {x: 0.037397224, y: -0.35060507, z: 0.0011843396, w: 0.9357757}
       scale: {x: 1, y: 1, z: 1}
-    - name: Solaar_Sam1:R_solder__J
-      parentName: Solaar_Sam1:spine01_J
-      position: {x: 0.0026827478, y: 0.0030417698, z: 0.00179369}
-      rotation: {x: -0.0029241794, y: -0.03876658, z: 0.08743632, w: 0.9954113}
-      scale: {x: 1.0000001, y: 1, z: 1.0000001}
-    - name: Solaar_Sam1:R_upperarm_J
-      parentName: Solaar_Sam1:R_solder__J
-      position: {x: 0.004302259, y: -0.0012429345, z: -0.0018417039}
-      rotation: {x: -0.45285663, y: 0.5185453, z: 0.44262725, w: 0.5745544}
-      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000006}
-    - name: Solaar_Sam1:R_forearm_J
-      parentName: Solaar_Sam1:R_upperarm_J
-      position: {x: 0.000989699, y: -0.007020471, z: 1.4887387e-10}
-      rotation: {x: -0.0028409504, y: 0.00005844234, z: 0.060360685, w: 0.99817264}
-      scale: {x: 1.000001, y: 1.0000001, z: 1.0000007}
-    - name: Solaar_Sam1:R_wrist_J
-      parentName: Solaar_Sam1:R_forearm_J
-      position: {x: -0.00043591156, y: -0.007142452, z: 1.1674182e-10}
-      rotation: {x: 0.08504203, y: 0.48968065, z: -0.039108563, w: 0.8668629}
-      scale: {x: 1.0000008, y: 1.0000002, z: 1.0000005}
-    - name: Solaar_Sam1:hoverboard_J
-      parentName: Solaar_Sam1:rip_J
-      position: {x: 0.0044829794, y: -0.015271319, z: -0.0040433775}
-      rotation: {x: -0.000000008996862, y: 0.727592, z: -0.000000009542198, w: 0.6860101}
-      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999998}
-    - name: Solaar_Sam1:joint2
-      parentName: Solaar_Sam1:hoverboard_J
-      position: {x: -0.016575854, y: 0, z: -8.326672e-18}
-      rotation: {x: 0.00000000700031, y: -0.727592, z: 0.000000007424627, w: 0.6860101}
+    - name: R_shin_J
+      parentName: R_thigh_J
+      position: {x: 0.04402784, y: -0.2507616, z: 0.014526688}
+      rotation: {x: 0.024149802, y: 0.0023059256, z: -0.023498615, w: 0.9994295}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_foot_J
+      parentName: R_shin_J
+      position: {x: 0.02252608, y: -0.27786207, z: -0.01089502}
+      rotation: {x: -0.051577095, y: 0.34657627, z: -0.01049034, w: 0.936544}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_toe_R
+      parentName: R_foot_J
+      position: {x: -0.003072, y: -0.03419683, z: 0.0780812}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_thigh_J
+      parentName: rip_J
+      position: {x: -0.08293639, y: -0.03174109, z: -0.02269798}
+      rotation: {x: 0.04694171, y: 0.37284812, z: -0.0025614896, w: 0.9267007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_shin_J
+      parentName: L_thigh_J
+      position: {x: -0.04402796, y: -0.250761, z: 0.014526706}
+      rotation: {x: 2.5619377e-16, y: -3.0542506e-17, z: 2.492527e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_foot_J
+      parentName: L_shin_J
+      position: {x: -0.022525935, y: -0.2778626, z: -0.010895031}
+      rotation: {x: -0.04694171, y: -0.37284815, z: 0.0025614921, w: 0.9267007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_toe_L
+      parentName: L_foot_J
+      position: {x: 0.0030717184, y: -0.03419679, z: 0.07808105}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine_J
+      parentName: rip_J
+      position: {x: 0.0044196146, y: 0.110557966, z: -0.016342545}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: spine01_J
+      parentName: spine_J
+      position: {x: 0.00088943663, y: 0.14142042, z: -1.3487371e-35}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_solder__J
+      parentName: spine01_J
+      position: {x: -0.08584786, y: 0.097336225, z: 0.057398207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_upperarm_J
+      parentName: L_solder__J
+      position: {x: -0.12306184, y: -0.018671453, z: -0.05893466}
+      rotation: {x: 0.6487309, y: 0.48117948, z: 0.3295822, w: -0.48886618}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_forearm_J
+      parentName: L_upperarm_J
+      position: {x: -0.080626726, y: -0.21641912, z: 0}
+      rotation: {x: -0.0033319884, y: 0.000416994, z: -0.11997576, w: 0.99277115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: L_wrist_J
+      parentName: L_forearm_J
+      position: {x: -0.0025461072, y: -0.22914964, z: 0}
+      rotation: {x: -0.054439753, y: -0.24329408, z: -0.058504324, w: 0.96665484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck_J
+      parentName: spine01_J
+      position: {x: -0.00088943663, y: 0.17344014, z: -2.4250653e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head_J
+      parentName: neck_J
+      position: {x: -0.0009566054, y: 0.623208, z: -3.2290903e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_solder__J
+      parentName: spine01_J
+      position: {x: 0.08584793, y: 0.097336635, z: 0.05739808}
+      rotation: {x: -0.0029241757, y: -0.038766656, z: 0.08743652, w: 0.9954112}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_upperarm_J
+      parentName: R_solder__J
+      position: {x: 0.13767229, y: -0.039773904, z: -0.058934525}
+      rotation: {x: 0.57424855, y: -0.5696279, z: -0.36953217, w: -0.45739332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_forearm_J
+      parentName: R_upperarm_J
+      position: {x: 0.03167037, y: -0.22465508, z: 0.000000004763964}
+      rotation: {x: -0.0000000017264552, y: 0.0000000015792142, z: 0.10033174, w: 0.99495405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: R_wrist_J
+      parentName: R_forearm_J
+      position: {x: -0.01394917, y: -0.22855847, z: 0.0000000037357384}
+      rotation: {x: 0.08335576, y: 0.5258936, z: -0.04264447, w: 0.8453811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hoverboard_J
+      parentName: rip_J
+      position: {x: -0.010726428, y: -0.6449212, z: -0.22829853}
+      rotation: {x: -8.6558165e-17, y: 0.72759205, z: 8.6558165e-17, w: 0.68601006}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: hoverboard_J
+      position: {x: -0.53042734, y: 0, z: -2.664535e-16}
+      rotation: {x: 2.5461593e-18, y: -0.72759205, z: -2.5461593e-18, w: 0.68601006}
       scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
@@ -497,16 +360,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
+    globalScale: 32
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 0320df4f13643064b969fa32d8ee0875,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 3
+  animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0

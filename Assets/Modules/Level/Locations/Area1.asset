@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Area1
   m_EditorClassIdentifier: 
   _name: Area 1
-  _distance: 300
+  _distance: 100
   _padding: 75
   _prefab: {fileID: 1838035091747899940, guid: 3ca8861dbf2484948a86581e1bfe1e28, type: 3}
