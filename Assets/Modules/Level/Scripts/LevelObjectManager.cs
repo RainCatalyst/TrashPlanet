@@ -11,7 +11,7 @@ namespace GP1.Gameplay
         public void AddObject(Transform obj, float length)
         {
             obj.SetParent(_objectParent);
-            _objects.Add(new LevelObject { Object = obj, HalfLength = length * 0.5f });
+            _objects.Add(new LevelObject { Object = obj, HalfLength = length * 0.75f });
         }
 
         private void Start()
