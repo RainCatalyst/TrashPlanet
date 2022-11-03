@@ -1767,7 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14ca65035777724da91c1daa4100039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceGoal: 200
+  _distanceGoal: 3000
   _baseSpeed: 19
   _minMultiplier: 0.2
   _locations:
@@ -2114,6 +2114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _extraSmooth
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075102104064076308, guid: 2429bd226112d6049a82c3495d5cf0aa,
+        type: 3}
+      propertyPath: _jumpVelocity
+      value: 0.075
       objectReference: {fileID: 0}
     - target: {fileID: 1075102104064076308, guid: 2429bd226112d6049a82c3495d5cf0aa,
         type: 3}

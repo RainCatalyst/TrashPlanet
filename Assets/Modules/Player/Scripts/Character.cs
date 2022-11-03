@@ -70,7 +70,7 @@ namespace GP1.Gameplay
                 if (_wasGrounded)
                 {
                     PlayJumpEffects();
-                    _currentYVelocity = -0.15f;
+                    _currentYVelocity = -_jumpVelocity;
                     _wasGrounded = false;
                 }
                 _isGrounded = false;
@@ -139,6 +139,8 @@ namespace GP1.Gameplay
         [Header("Hover")]
         [SerializeField]
         private float _hoverHeight;
+        [SerializeField]
+        private float _jumpVelocity;
         [SerializeField]
         private float _gravity;
         [SerializeField]
