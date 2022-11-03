@@ -1174,6 +1174,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1936868137649577470, guid: cd9e7bb34b798934e80a336142f1f0e3,
+        type: 3}
+      propertyPath: m_CharacterLimit
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2321437972838567089, guid: cd9e7bb34b798934e80a336142f1f0e3,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1762,7 +1767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14ca65035777724da91c1daa4100039, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _distanceGoal: 3000
+  _distanceGoal: 200
   _baseSpeed: 19
   _minMultiplier: 0.2
   _locations:

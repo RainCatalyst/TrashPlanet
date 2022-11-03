@@ -50,18 +50,25 @@ namespace GP1.UI
 
         private void RefreshEntries()
         {
-            string text = "";
+            // Destroy all entries
+            foreach (Transform entry in _entryContainer)
+            {
+                Destroy(entry.gameObject);
+            }
+
+            // Create new visual entry for each entry in the list
             for (int i = 0; i < Mathf.Min(_data.Entries.Count, 10); i++)
             {
                 LeaderboardEntry entry = _data.Entries[i];
-                text += $"{i + 1}. {entry.Name}\t\t{Timer.FormatTime(entry.Time)}\n";
+                var newVisualEntry = Instantiate(_entryPrefab, _entryContainer);
+                newVisualEntry.SetData(entry.Name, entry.Time);
             }
-
-            _entriesText.text = text;
         }
 
         private LeaderboardData _data;
         [SerializeField]
-        private TMP_Text _entriesText;
+        private Transform _entryContainer;
+        [SerializeField]
+        private LeaderboardEntryVisual _entryPrefab;
     }
 }
