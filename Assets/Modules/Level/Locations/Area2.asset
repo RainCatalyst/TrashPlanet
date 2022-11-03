@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Area 2
   _distance: 2000
-  _padding: 75
+  _padding: 125
   _prefab: {fileID: 1838035091747899940, guid: 1f5fbe54788bee64cb007f93dfd1e0eb, type: 3}
